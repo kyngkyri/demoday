@@ -21,6 +21,10 @@ html{
   background:linear-gradient( #42A6FF 0%, #57D9FF 51%, #66FFFF 75%);
 }
 
+.fb-login-button {
+    margin: 0 auto;
+}
+
 .rightsd{
     
             margin: 0 auto;

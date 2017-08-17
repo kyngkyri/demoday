@@ -144,3 +144,12 @@ p {
 #aboutpage {
     margin:auto;
 }
+
+#cpic {
+    height:500px;
+    width:500px;
+}
+
+#link {
+    color:orange;
+}

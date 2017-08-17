@@ -20,3 +20,39 @@
 html{
   background:linear-gradient( #42A6FF 0%, #57D9FF 51%, #66FFFF 75%);
 }
+
+.rightsd{
+            padding: 0px 200px 0px 0px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .rightsd input{
+            display: block;
+            margin: 0 auto;
+        }
+        .rightsd h2{
+            font-size: 100px;
+        }
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: blue;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  margin: 5px;
+}
+input {
+    background-color: white;
+    user-select: text;
+    padding: 20px 50px;
+    text-align: center;
+    border-width: 2px;
+}
+
+.link {
+    color: black;
+}

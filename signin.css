@@ -1,0 +1,22 @@
+
+.top {
+    font-size: 70px;
+    text-align: center;
+}
+
+.middle{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.middle h2{
+    font-size: 40px;
+}
+
+.g-signin2{
+    padding: 0px 0px 0px 610px;
+}
+
+html{
+  background:linear-gradient( #42A6FF 0%, #57D9FF 51%, #66FFFF 75%);
+}

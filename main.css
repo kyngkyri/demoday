@@ -1,0 +1,146 @@
+.spotify {
+    height: 50px;
+    width: 200px;
+    border-radius: 50px;
+    border: 1px solid black;
+    background-color: green;
+    color: white;
+}
+
+.youtube {
+    height: 50px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: red;
+    color:white;
+    margin:auto;
+}
+
+.pandora {
+    height: 50px;
+    width: 200px;
+    border: 2px solid white;
+    background-color:blue;
+    color:white;
+    margin:auto;
+}
+
+.hulu {
+     height: 50px;
+    width: 200px;
+    border: 2px solid green;
+    background-color: grey;
+    color:white;
+    margin:auto;
+}
+
+
+#img{
+    margin: auto;
+    height: 500px;
+    width: 600px
+}
+
+.crn {
+    height: 50px;
+    width: 200px;
+    border: 2px solid orange;
+    background-color: grey;
+    color:white;
+    margin:auto;
+}
+
+.plex {
+    height: 50px;
+    width: 200px;
+    border: 2px solid orange;
+    background-color: black;
+    color:white;
+    margin:auto;
+}
+
+body {
+    background: linear-gradient(#42A6FF, #57D9FF, #66FFFF, #0000ff, #00B2EE, #0276FD);
+    background-size: 1200% 1200%;
+
+    -webkit-animation: AnimationName 19s ease infinite;
+    -moz-animation: AnimationName 19s ease infinite;
+    animation: AnimationName 19s ease infinite;
+}
+    @-webkit-keyframes AnimationName {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+    @-moz-keyframes AnimationName {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+    @keyframes AnimationName { 
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+.chat {
+margin: auto;
+}
+
+#xboxlive {
+    height:210px;
+    width:470px;
+}
+
+#plex {
+    height:210px;
+    width:470px;
+}
+
+#pandora {
+    height:210px;
+    width:470px;
+}
+
+#playstation {
+    height:210px;
+    width:470px;
+}
+
+#netflix {
+    height:210px;
+    width:470px;
+}
+
+#hulu {
+    height:210px;
+    width:470px;
+}
+
+#crunchyroll {
+    height:210px;
+    width:470px;
+}
+
+#youtube {
+    height:210px;
+    width:470px;
+}
+
+#spotify {
+    height:210px;
+    width:470px;
+}
+
+p {
+    color: solid black;
+    font-size: 20px;
+}
+
+#aboutpic {
+    height:500px;
+    width:760px;
+}
+
+#aboutpage {
+    margin:auto;
+}

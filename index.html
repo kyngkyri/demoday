@@ -1,0 +1,60 @@
+<html>
+<head>
+    <title>SFL</title>
+     <link rel="icon" href="https://skatellsspartanburg.files.wordpress.com/2012/11/diamond-picture.png">
+    <script src ="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <meta name="google-signin-client_id" content="293416089054-utrpmtj2a9vla03nukp8csdsg15m0ed5.apps.googleusercontent.com">
+    <script>
+      function onSignIn(googleUser) 
+      {
+     window.location.href = "hub.html";
+
+      }
+    </script>
+    <link href="signin.css" rel="stylesheet">
+
+   
+</head>
+
+<body>
+
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '1465068886919172',
+      xfbml      : true,
+      version    : 'v2.10'
+    });
+    FB.AppEvents.logPageView();
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+  <div class="top">
+    <h1>SFL</h1>
+  </div>
+
+  <div class="middle">
+    <h2> Sign In</h2>
+    <div class="g-signin2" data-onsuccess="onSignIn"></div>
+    <div
+  class="fb-like"
+  data-share="true"
+  data-width="450"
+  data-show-faces="true">
+</div>
+   
+  </div>
+    
+</body>
+
+</html>
